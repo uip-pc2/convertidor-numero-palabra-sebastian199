@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Secundaria.Principal">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="350.0" prefWidth="500.0">
+         <children>
+            <TextArea editable="false" prefHeight="57.0" prefWidth="500.0" text="Bienvenido al Convertidor ">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextArea>
+            <TextField layoutX="135.0" layoutY="185.0" onAction="#Entero" />
+            <Button layoutX="185.0" layoutY="248.0" mnemonicParsing="false" onAction="#btn_enviar" text="Enviar" />
+            <TextArea editable="false" layoutX="37.0" layoutY="118.0" prefHeight="41.0" prefWidth="271.0" text="Escriba el Numero a Convertir">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </TextArea>
+            <Button layoutX="308.0" layoutY="248.0" mnemonicParsing="false" onAction="#btn_cerrar" text="Cerrar " />
+         </children>
+      </Pane>
+   </children>
+</GridPane>
